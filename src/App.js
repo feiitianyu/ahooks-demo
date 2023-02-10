@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path='/login' component={Login} />
+        {/* <Route path='/login' component={Login} /> */}
         <Route path='/admin' component={Main} />
         <Redirect to='/login' />
       </Switch>
